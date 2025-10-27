@@ -3,7 +3,7 @@ import google.generativeai as genai
 from sentence_transformers import SentenceTransformer
 import chromadb
 
-genai.configure(api_key=os.getenv("AIzaSyBGmU1an3LAvwe2FN4FWXTP6Rk0cGv-yBI"))
+genai.configure(api_key=os.getenv("YOUR_GEMINI_API_KEY"))
 MODEL_NAME = "gemini-2.5-flash"
 
 PERSIST_DIR = "chroma_store"
